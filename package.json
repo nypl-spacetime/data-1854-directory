@@ -1,0 +1,23 @@
+{
+  "name": "spacetime-data-1854-directory",
+  "version": "0.0.1",
+  "description": "Convert NYPL 1854 city directory data to Histograph NDJSON",
+  "main": "1854-directory.js",
+  "devDependencies": {
+    "standard": "^6.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/data-1854-directory.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^1.9.3",
+    "highland": "^2.6.0",
+    "ramda": "^0.19.1"
+  }
+}
