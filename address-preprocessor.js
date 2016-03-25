@@ -66,6 +66,7 @@ var avenue = (s) => {
 var notStreets = [
   'Avenue',
   'Broadway',
+  'Bowery',
   'Market',
   'Place',
   'Court',
@@ -109,7 +110,10 @@ var fixes = [
   ['llth', '11th'],
   ['WalL', 'Wall'],
   ['Gouvei\'neur', 'Gouverneur'],
-  ['Div\'sn', 'Division']
+  ['Div\'sn', 'Division'],
+  ['Bow\'y', 'Bowery'],
+  ['G\'wich', 'Greenwich'],
+  ['C\'hrystie', 'Chrystie']
 ]
 
 var fix = (s) => {
